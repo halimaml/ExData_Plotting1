@@ -28,7 +28,7 @@ filtered_df <- data[data$Date >= start_date & data$Date <= end_date, ]
 filtered_df$Global_active_power <- as.numeric(filtered_df$Global_active_power)
 
 # Open a PNG device
-png(file = "Plot2.png", width = 800, height = 600, res = 120)
+png(file = "Plot2.png", width = 480, height = 480, res = 120)
 
 
 # Create a basic plot canvas
