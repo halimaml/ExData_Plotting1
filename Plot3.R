@@ -31,7 +31,7 @@ filtered_df$Sub_metering_2 <- as.numeric(filtered_df$Sub_metering_2)
 filtered_df$Sub_metering_3 <- as.numeric(filtered_df$Sub_metering_3)
 
 # Open a PNG device
-png(file = "Plot3.png", width = 800, height = 600, res = 120)
+png(file = "Plot3.png", width = 480, height = 480, res = 120)
 
 
 
